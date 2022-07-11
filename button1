@@ -1,0 +1,32 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Button by Cheapcookie</title>
+	<link rel="stylesheet" type="text/css" href="button.css"> <!--your css file here -->
+</head>
+<body>
+	<button class="button1">text</button>
+</body>
+</html>
+
+
+CSS CODE
+
+.button1{
+	font-family: Andale Mono, monospace;
+	border: none;
+	border-radius: none;
+	width: 270px;
+	height: 30px;
+	background-color: #ff8a1c; /*i'll do orange button xd*/
+	transition: .3s;
+	color: white;
+}
+.button1:hover{
+	background-color: #ffa44f;
+	border-radius: 10px; /*you can remove it*/
+}
